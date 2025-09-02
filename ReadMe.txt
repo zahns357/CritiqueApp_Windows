@@ -34,6 +34,11 @@ This package contains:
 • If you see a security warning, click "More info" → "Run anyway".
 • Works best on Windows 10 or later.
 
+NOTE :  To build as standalone app: 
+pyinstaller --onedir --add-data "Nova.png:." critique_report.py
+NOTE : TO build with dependacies 
+pyinstaller critique_report.spec
+
 ──────────────────────────────────────────────────────────────
 📞 SUPPORT
 ──────────────────────────────────────────────────────────────
